@@ -1,0 +1,61 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.btn {
+  color: #fff;
+  background-color: #333;
+  font-size: 1.125rem;
+  text-decoration: none;
+  margin: 5px;
+  padding: .45em;
+  border: 3px solid #333;
+  border-radius: 8px;
+  border-width: 3px;
+  display: inline-block;
+}
+
+.banner {
+  display: block;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  max-height: 500px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 2em;
+  left: 50%;
+  transform: translateX(-
+}
+
+.banner body {
+  margin: 0;
+  position: relative;
+}
+
+.banner h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3rem;
+}
+
+.banner p {
+
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.btn-big {
+  font-size: 3rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+  border-width: 3px;
+}
